@@ -4,10 +4,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/src/java/com/matheuscampos/jsf/dao/CarroDAO.java</file>
-            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/src/java/com/matheuscampos/jsf/dao/CrudDAO.java</file>
-            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/web/controle-tela.xhtml</file>
+            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/web/index.xhtml</file>
+            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/src/java/com/matheuscampos/jsf/model/Usuario.java</file>
+            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/src/java/com/matheuscampos/jsf/bean/UsuarioBean.java</file>
+            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/web/template.xhtml</file>
+            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/web/gerenciar-usuario.xhtml</file>
             <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/src/java/com/matheuscampos/jsf/bean/CarroBean.java</file>
-            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/src/java/com/matheuscampos/jsf/bean/CrudBean.java</file>
+            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/src/java/com/matheuscampos/jsf/dao/UsuarioDAO.java</file>
+            <file>file:/home/matheus-campos/NetBeansProjects/sistema-carros/web/gerenciar-carros.xhtml</file>
         </group>
     </open-files>
 </project-private>

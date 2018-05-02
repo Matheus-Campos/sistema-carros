@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class ConnectionFactory {
     
     private static Connection conexao;
-    private static final String URL = "jdbc:mysql://127.0.0.1:3306/sistema-carros";
+    private static final String URL = "jdbc:mysql://127.0.0.1:3306/sistema_carros";
     private static final String USUARIO = "root";
     private static final String SENHA = null;
 
