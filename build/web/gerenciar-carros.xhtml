@@ -5,19 +5,16 @@
              xmlns:p="http://primefaces.org/ui"
              xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
              template="template.xhtml"
-             xmlns:f="http://xmlns.jcp.org/jsf/core">
+             xmlns:f="http://xmlns.jcp.org/jsf/core"
+             xmlns:sc="http://xmlns.jcp.org/jsf/composite/sccomp">
 
     <ui:define name="corpo">
         <h:form>
             <p:messages autoUpdate="true" showDetail="true"></p:messages>
             <p:fieldset legend="Gerenciar carros">
-                <p:toolbar>
-                    <p:toolbarGroup>
-                        <p:commandButton value="Novo" action="#{carroBean.novo()}" update="@form"></p:commandButton>
-                        <p:commandButton value="Salvar" action="#{carroBean.salvar()}" disabled="#{carroBean.busca}" update="@form"></p:commandButton>
-                        <p:commandButton value="Listar" action="#{carroBean.buscar()}" update="@form"></p:commandButton>
-                    </p:toolbarGroup>
-                </p:toolbar>
+                <sc:toolbarCrud crudBean="#{carroBean}">
+                    <p:commandButton value="Imprimir" icon="ui-icon-print"></p:commandButton>
+                </sc:toolbarCrud>
                 <p:panelGrid columns="2" rendered="#{!carroBean.busca}">
                     <h:outputLabel value="Modelo" for="modelo"></h:outputLabel>
                     <p:inputText value="#{carroBean.entidade.modelo}" id="modelo"></p:inputText>
